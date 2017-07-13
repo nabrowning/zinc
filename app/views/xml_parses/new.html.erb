@@ -1,0 +1,12 @@
+<h1>Enter the Macbeth xml url plz</h1>
+
+<%= form_for :xml_parse, url: xml_parses_path do |f| %>
+  <p>
+    <%= f.label :xml_url %><br>
+    <%= f.text_field :xml_url %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

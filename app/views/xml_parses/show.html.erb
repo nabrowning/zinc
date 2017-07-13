@@ -1,0 +1,17 @@
+
+<h1>Listing Top Speakers</h1>
+ 
+<table>
+  <tr>
+    <th>Speaker</th>
+    <th>Count</th>
+  </tr>
+ 
+  <% @speaker_line_count.each do |speaker_count| %>
+    <tr>
+      <td><%= speaker_count[0] %></td>
+      <td><%= speaker_count[1] %></td>
+    </tr>
+  <% end %>
+</table>
+ 

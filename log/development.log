@@ -1,0 +1,1156 @@
+Started GET "/" for 127.0.0.1 at 2017-07-10 14:40:18 -0400
+Processing by MacbethController#index as HTML
+  Rendering macbeth/index.html.erb within layouts/application
+  Rendered macbeth/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 629ms (Views: 524.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-10 14:54:11 -0400
+Processing by MacbethController#index as HTML
+  Rendering macbeth/index.html.erb within layouts/application
+  Rendered macbeth/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 24ms (Views: 22.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-10 14:55:40 -0400
+Processing by MacbethController#index as HTML
+  Rendering macbeth/index.html.erb within layouts/application
+  Rendered macbeth/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 11.9ms)
+
+
+Started POST "/macbeth/index" for 127.0.0.1 at 2017-07-10 14:56:03 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/macbeth/index"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/macbeth/index" for 127.0.0.1 at 2017-07-10 15:02:26 -0400
+Processing by MacbethController#index as HTML
+  Rendering macbeth/index.html.erb within layouts/application
+  Rendered macbeth/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 12ms (Views: 10.7ms)
+
+
+Started POST "/macbeth/index" for 127.0.0.1 at 2017-07-10 15:03:00 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/macbeth/index"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/macbeth/xml_parses" for 127.0.0.1 at 2017-07-10 15:07:39 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/macbeth/xml_parses"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/macbeth/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:07:45 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/macbeth/xml_parses/new"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/macbeth/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:08:53 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/macbeth/xml_parses/new"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/macbeth/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:09:27 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/macbeth/xml_parses/new"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/macbeth/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:10:56 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/macbeth/xml_parses/new"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:11:16 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 42ms (Views: 40.7ms)
+
+
+Started POST "/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:11:31 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/xml_parses/new"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:21:02 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 15:21:17 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aGXYxzYDZvbt/6Ge+J9GETx16gdUzM8oTS49cu9vt2QlPRJSrHDB+WClnIulf1f05Un8+CZp0K2FB1/tmLXvpA==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateXmlParses (20170710192700)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "xml_parses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "xml_url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170710192700"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-10 19:34:11.677269"], ["updated_at", "2017-07-10 19:34:11.677269"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:37:18 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 15:37:29 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FtmgIDxdEVyJE2H88DUVajlmmpiHEHaFkAtPdsQG+GlbgWq1pi62UwRJXOmt1QSP4FqMZ/W1aQBYIi3ps9ygqQ==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (Unable to autoload constant Xml_parse, expected /Users/nabrowning/macbeth_app/app/models/xml_parse.rb to define it):
+  
+app/controllers/xml_parses_controller.rb:6:in `create'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:47:18 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.1ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 15:47:26 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JF0Lwv2G6Jki4wxtcd+zBTy4gc6PH7LseM7c5G9IDUhpBcFXZ/VPlq+5MXgsP6Lg5YSXMf26rWmw5757GJJViA==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+LoadError (Unable to autoload constant Xml_parse, expected /Users/nabrowning/macbeth_app/app/models/xml_parse.rb to define it):
+  
+app/controllers/xml_parses_controller.rb:10:in `create'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:52:06 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 15:52:09 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C9y6GrijRgz6RaSS2XurGQrwUmpN/g6jgMNFMcOQzxtGhHCPItDhA3cfmYeEm7r808xElT9bESZI6ieutEqX2w==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Unpermitted parameter: :text
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-07-10 19:52:09.811050"], ["updated_at", "2017-07-10 19:52:09.811050"]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/1
+Completed 302 Found in 10ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/xml_parses/1" for 127.0.0.1 at 2017-07-10 15:52:09 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `xm_url' for nil:NilClass):
+    1: <p>
+    2:   <strong>URL:</strong>
+    3:   <%= @article.xm_url %>
+    4: </p>
+    5:  
+  
+app/views/xml_parses/show.html.erb:3:in `_app_views_xml_parses_show_html_erb___2831655373165318044_70279730863880'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:52:39 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 15:52:42 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6PbUWbId5mkN+oK7JjfAS5JfbhtVEJX4eOW5PdSC89ulrh7MKG5BZoCgv65719GuS2N45Ce1in2wzNuio1irGw==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Unpermitted parameter: :text
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "xml_parses" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-07-10 19:52:42.699361"], ["updated_at", "2017-07-10 19:52:42.699361"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/2
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/xml_parses/2" for 127.0.0.1 at 2017-07-10 15:52:42 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `xml_url' for nil:NilClass):
+    1: <p>
+    2:   <strong>URL:</strong>
+    3:   <%= @article.xml_url %>
+    4: </p>
+    5:  
+  
+app/views/xml_parses/show.html.erb:3:in `_app_views_xml_parses_show_html_erb___2831655373165318044_70279754272920'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:53:41 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 15:53:44 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k5b28sgSKoyiVJUCkE8lwkfDPPbgJgPBwGYXGyNvsRbezjxnUmGNgy8OqBfNrzQnnv8qCZKDHEQIT3WEVLXp1g==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Unpermitted parameter: :text
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "xml_parses" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-07-10 19:53:44.260554"], ["updated_at", "2017-07-10 19:53:44.260554"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/3
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/xml_parses/3" for 127.0.0.1 at 2017-07-10 15:53:44 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 15:57:48 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 15:57:52 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QP7c5yvwE7UqSJdzPmAIkt5m1Q/7k//SIx/4OxA8+2UNphZysYO0uqcSqmZjgBl3B1rD8Ik24FfrNpqkZ+ajpQ==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Unpermitted parameter: :text
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-07-10 19:57:52.856195"], ["updated_at", "2017-07-10 19:57:52.856195"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/4
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/xml_parses/4" for 127.0.0.1 at 2017-07-10 15:57:52 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 16:05:16 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 40.8ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 16:05:19 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jflqqmw2eJNGxEgx5r9NjLYqQ010FezGzjL6Ek7xFNdooaA/9kXfnMuedSS7X1xpbxZVsgaw80MGG5iNOStMFw==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Unpermitted parameter: :text
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-07-10 20:05:19.448803"], ["updated_at", "2017-07-10 20:05:19.448803"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/5
+Completed 302 Found in 9ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/xml_parses/5" for 127.0.0.1 at 2017-07-10 16:05:19 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 16:08:32 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 38ms (Views: 36.5ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 16:08:37 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xmTy0tRU1CaDrz+Tx3kTMkcH8soqcGFnj6NjOywGP/CLPDhHTidzKQ71AoaamQLXnjvkNVjVfuJHigGkW9xnMA==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Unpermitted parameter: :text
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-07-10 20:08:37.398759"], ["updated_at", "2017-07-10 20:08:37.398759"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/6
+Completed 302 Found in 11ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/xml_parses/6" for 127.0.0.1 at 2017-07-10 16:08:37 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 16:09:05 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 17.6ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 16:09:10 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LqM/0DU3ugm/rlMAia5/PvCIaEp7HFvc7CHkY7g/ywBj+/VFr0QdBjL0bhXUTm7bKbR+tQm5RFkkCIb8z+WTwA==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Unpermitted parameter: :text
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-07-10 20:09:10.101958"], ["updated_at", "2017-07-10 20:09:10.101958"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/7
+Completed 302 Found in 11ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/xml_parses/7" for 127.0.0.1 at 2017-07-10 16:09:10 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mXmlParse Load (0.2ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mXmlParse Load (1.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 16:18:52 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 24ms (Views: 22.2ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 16:18:56 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ChNyUt9lxJM7PtC76HCEHqtnBBNZJAAdTuEZZls+JoFHS7jHRRZjnLZk7a61kJX7clsS7CuBH5iGyHv5LOR+QQ==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+Unpermitted parameter: :text
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-07-10 20:18:56.833401"], ["updated_at", "2017-07-10 20:18:56.833401"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/8
+Completed 302 Found in 9ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/xml_parses/8" for 127.0.0.1 at 2017-07-10 16:18:56 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 16:21:55 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 38ms (Views: 36.2ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 16:22:01 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zIhS6r1J/9lE4CrEadVELYK2LabdjAP+sfK89cDJok6B0Jh/JzpY1sm6F9E0NVXIW4o7Wa8pHHt5295qtxP6jg==", "xml_parse"=>{"text"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-07-10 20:22:01.352821"], ["updated_at", "2017-07-10 20:22:01.352821"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/9
+Completed 302 Found in 11ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/xml_parses/9" for 127.0.0.1 at 2017-07-10 16:22:01 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mXmlParse Load (0.2ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 16:28:20 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 20.4ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 16:28:34 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PCocXyPJzYKosigNVV2Tp/EPsdwsVX8qBBZRhOYxiHNxctbKubpqjSXoFRgIvYJCKDOnI17wYK/MPzMbkevQsw==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-10 20:28:34.549756"], ["updated_at", "2017-07-10 20:28:34.549756"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/10
+Completed 302 Found in 11ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/xml_parses/10" for 127.0.0.1 at 2017-07-10 16:28:34 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 17:41:56 -0400
+  
+SyntaxError (/Users/nabrowning/macbeth_app/app/controllers/concerns/top_speakers.rb:36: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/concerns/top_speakers.rb:36: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/xml_parses_controller.rb:2:in `<class:XmlParsesController>'
+app/controllers/xml_parses_controller.rb:1:in `<top (required)>'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 17:58:18 -0400
+  
+SyntaxError (/Users/nabrowning/macbeth_app/app/controllers/concerns/top_speakers.rb:47: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/concerns/top_speakers.rb:47: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/xml_parses_controller.rb:2:in `<class:XmlParsesController>'
+app/controllers/xml_parses_controller.rb:1:in `<top (required)>'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 17:58:57 -0400
+  
+TypeError (wrong argument type Class (expected Module)):
+  
+app/controllers/xml_parses_controller.rb:2:in `include'
+app/controllers/xml_parses_controller.rb:2:in `<class:XmlParsesController>'
+app/controllers/xml_parses_controller.rb:1:in `<top (required)>'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 17:59:12 -0400
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/concerns/top_speakers.rb:6:in `initialize'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 18:03:17 -0400
+  
+ActionController::RoutingError (undefined method `TopSpeakers' for XmlParsesController:Class):
+  
+app/controllers/xml_parses_controller.rb:2:in `<class:XmlParsesController>'
+app/controllers/xml_parses_controller.rb:1:in `<top (required)>'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 18:35:22 -0400
+  
+ActionController::RoutingError (undefined method `TopSpeakers' for XmlParsesController:Class):
+  
+app/controllers/xml_parses_controller.rb:2:in `<class:XmlParsesController>'
+app/controllers/xml_parses_controller.rb:1:in `<top (required)>'
+Started POST "/__web_console/repl_sessions/e959207cc2802b7bd7d312061494bdd7/trace" for 127.0.0.1 at 2017-07-10 18:35:26 -0400
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 18:42:18 -0400
+  
+ActionController::RoutingError (undefined method `TopSpeakers' for main:Object):
+  
+app/controllers/xml_parses_controller.rb:1:in `<top (required)>'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 18:42:29 -0400
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/concerns/top_speakers.rb:6:in `initialize'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:32:46 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+LoadError (Unable to autoload constant TopSpeakers, expected /Users/nabrowning/macbeth_app/app/controllers/concerns/top_speakers.rb to define it):
+  
+app/controllers/xml_parses_controller.rb:1:in `<top (required)>'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:33:15 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 206ms (Views: 198.7ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:33:37 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"timulaKRgPBcA0uNbHO8oYhgZTOZ9WyAL+VWEk79wLb7cWQAOOIn/9FZdpgxk61EUVxzzOtQcwXnzDSNOSeYdg==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:33:37.502793"], ["updated_at", "2017-07-11 02:33:37.502793"]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/11
+Completed 302 Found in 10ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/xml_parses/11" for 127.0.0.1 at 2017-07-10 22:33:37 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `speaker_line_count' for nil:NilClass):
+  
+app/controllers/xml_parses_controller.rb:11:in `show'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:34:37 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 25ms (Views: 23.2ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:34:41 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BpqnJqYUdVPgtn4vMU+EexYSCvU2QvfCPtJeHo46PZdLwm2zPGfSXG3sQzpsr5Wezy4cCkTn6Ef2+zyB+eBlVw==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:34:41.430795"], ["updated_at", "2017-07-11 02:34:41.430795"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/12
+Completed 302 Found in 13ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/xml_parses/12" for 127.0.0.1 at 2017-07-10 22:34:41 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 507ms (ActiveRecord: 0.1ms)
+
+
+  
+NameError (undefined local variable or method `speaker_line_count' for #<XmlParsesController:0x007ff3355e4338>):
+  
+app/controllers/xml_parses_controller.rb:11:in `show'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:35:54 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 17.1ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:35:57 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b/vV/NAK7VahFJ2+JHsEmoyxkxuR0VdSfFFVGQ3QpnUiox9pSnlKWSxOoKt5mxV/VY2F5ON0SNe0eDeGegr+tQ==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:35:57.177129"], ["updated_at", "2017-07-11 02:35:57.177129"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/13
+Completed 302 Found in 11ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/xml_parses/13" for 127.0.0.1 at 2017-07-10 22:35:57 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 195ms (Views: 16.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:36:26 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 29.4ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:36:32 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tJtFNEqdjLJZG97aXUrj6xkLA2Rt69gR74eSwaXRClD5w4+h0O4rvdRB488AqvIOwDcVmx9Ox5QnrvBe0gtSkA==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:36:32.099985"], ["updated_at", "2017-07-11 02:36:32.099985"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/14
+Completed 302 Found in 9ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/xml_parses/14" for 127.0.0.1 at 2017-07-10 22:36:32 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 218ms (Views: 11.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:40:12 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 13.9ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:40:17 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IaQ5TGbnP8k0UTnRkX5brVA4hCQ0ApPf0NBW6TAHsJRs/PPZ/JSYxrkLBMTMnkpIiQSS20anjFoY+TR2R93oVA==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:40:17.138144"], ["updated_at", "2017-07-11 02:40:17.138144"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/15
+Completed 302 Found in 9ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/xml_parses/15" for 127.0.0.1 at 2017-07-10 22:40:17 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 241ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:40:56 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 13.3ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:40:59 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RgbtiG4MR8NXJv6cKzeJgQVOv2SWwFKGEV3l05FjtEcLXicd9H/gzNp8w4l215hk3HKpm+RlTQPZdIdM5rnshw==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:40:59.742864"], ["updated_at", "2017-07-11 02:40:59.742864"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/16
+Completed 302 Found in 9ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/xml_parses/16" for 127.0.0.1 at 2017-07-10 22:40:59 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 203ms (Views: 11.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:41:39 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:41:43 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yda0Per4OEq1hmvz3y2pvw/nGHLqoSSVjumIhp0a8wKEjn6ocIufRTjcVuaCzbha1tsOjZgEOxBGwOoZ6sCrwg==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:41:43.566790"], ["updated_at", "2017-07-11 02:41:43.566790"]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/17
+Completed 302 Found in 10ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/xml_parses/17" for 127.0.0.1 at 2017-07-10 22:41:43 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 222ms (Views: 12.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:42:40 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 14.1ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:42:44 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dkFU7EDQ9HKUdEOVc9Crtn2b06mRDnShVIp4ID59jSo7GZ552qNTfRkufoAuMLpTpKfFVuOrayScoxq/SafV6g==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:42:44.676732"], ["updated_at", "2017-07-11 02:42:44.676732"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/18
+Completed 302 Found in 10ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/xml_parses/18" for 127.0.0.1 at 2017-07-10 22:42:44 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 484ms (ActiveRecord: 0.1ms)
+
+
+  
+NameError (undefined local variable or method `speaker_and_lines' for #<XmlParsesController:0x007ff3389c0a08>
+Did you mean?  @speaker_and_lines):
+  
+app/controllers/concerns/top_speakers.rb:22:in `block in make_speaker_hash'
+app/controllers/concerns/top_speakers.rb:20:in `make_speaker_hash'
+app/controllers/concerns/top_speakers.rb:44:in `parse_xml'
+app/controllers/xml_parses_controller.rb:10:in `show'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:43:15 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 14.0ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:43:19 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B9S71zAyjperwPYuIoWJfJDtkcpfArZqLvBdQF/JtKVKjHFCqkEpmCaayzt/ZZiZSdGHNS2nqe/m2T/fKBPsZQ==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:43:19.153410"], ["updated_at", "2017-07-11 02:43:19.153410"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/19
+Completed 302 Found in 9ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/xml_parses/19" for 127.0.0.1 at 2017-07-10 22:43:19 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mXmlParse Load (0.3ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 194ms (ActiveRecord: 0.3ms)
+
+
+  
+NoMethodError (undefined method `key?' for nil:NilClass):
+  
+app/controllers/concerns/top_speakers.rb:25:in `block in make_speaker_hash'
+app/controllers/concerns/top_speakers.rb:20:in `make_speaker_hash'
+app/controllers/concerns/top_speakers.rb:44:in `parse_xml'
+app/controllers/xml_parses_controller.rb:10:in `show'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:44:04 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 12.8ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:44:08 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G6VdgHCvj4nSdvAF8YysJd4SfNIQWpQl/TJdWDzrrFFW/ZcV6twohl8szRCsbL3ABy5qLWL/i6A1Gz/HSzH0kQ==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:44:08.026655"], ["updated_at", "2017-07-11 02:44:08.026655"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/20
+Completed 302 Found in 9ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/xml_parses/20" for 127.0.0.1 at 2017-07-10 22:44:08 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 526ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `key?' for nil:NilClass):
+  
+app/controllers/concerns/top_speakers.rb:25:in `block in make_speaker_hash'
+app/controllers/concerns/top_speakers.rb:20:in `make_speaker_hash'
+app/controllers/concerns/top_speakers.rb:44:in `parse_xml'
+app/controllers/xml_parses_controller.rb:10:in `show'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:45:03 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 12.6ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:45:06 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4KFKYEoTcFQAaFtNL1Z9esUaFQZosnhi6ots2PP85cGt+YD10GDXW40yZlhytmyfHCYD+RoXZ+ciog5HhCa9AQ==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:45:06.317253"], ["updated_at", "2017-07-11 02:45:06.317253"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/21
+Completed 302 Found in 9ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/xml_parses/21" for 127.0.0.1 at 2017-07-10 22:45:06 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mXmlParse Load (0.6ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 209ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `key?' for nil:NilClass):
+  
+app/controllers/concerns/top_speakers.rb:26:in `block in make_speaker_hash'
+app/controllers/concerns/top_speakers.rb:20:in `make_speaker_hash'
+app/controllers/concerns/top_speakers.rb:44:in `parse_xml'
+app/controllers/xml_parses_controller.rb:10:in `show'
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:45:53 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 13.3ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:45:56 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"51Xv2Vlktd3xgGoP32ou7jFcsB230d/7aK3JVvEqsIaqDSVMwxcS0nzaVxqCij8L6GCm4sV0wH6ghKvJhvDoRg==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:45:56.695761"], ["updated_at", "2017-07-11 02:45:56.695761"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/22
+Completed 302 Found in 8ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/xml_parses/22" for 127.0.0.1 at 2017-07-10 22:45:56 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mXmlParse Load (0.2ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 244ms (Views: 11.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:49:05 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 12.3ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:49:11 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WeOuzU2vR9pgAuPTH0rCvO1jSugUR6qn/DHO0Mu9nF8Uu2RY19zg1e1Y3sZCqtNZNF9cF2bitSI0GKxPvGfEnw==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:49:11.255267"], ["updated_at", "2017-07-11 02:49:11.255267"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/23
+Completed 302 Found in 9ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/xml_parses/23" for 127.0.0.1 at 2017-07-10 22:49:11 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 239ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:50:46 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 15ms (Views: 13.5ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:50:49 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CZiZ9ZUgmXzAwqmoGCw+CiJ7WDG07MNYF+DWRYiP755EwFNgD1M+c02YlL1FzC/v+0dOzsZJ3N3fybTa/1W3Xg==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:50:49.427336"], ["updated_at", "2017-07-11 02:50:49.427336"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/24
+Completed 302 Found in 10ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/xml_parses/24" for 127.0.0.1 at 2017-07-10 22:50:49 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 24], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 248ms (Views: 20.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:51:51 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 12.9ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:51:54 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J1FxLWaaH3dNKKU7mmGYRouEI45qKKkNYCyW3wIuHIhqCbu4/Om4eMBymC7HgYmjUrg1cRiNtoioBfRAdfRESA==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:51:54.184715"], ["updated_at", "2017-07-11 02:51:54.184715"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/25
+Completed 302 Found in 10ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/xml_parses/25" for 127.0.0.1 at 2017-07-10 22:51:54 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 241ms (Views: 12.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:52:24 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15ms (Views: 13.9ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:52:28 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pIWx7IzzuDN2Qvu8kgqinbVMb6YI+X7wkzV76ioiQ5Pp3Xt5FoAfPPsYxqnP6rN4bHB5WXpcYXVbHBl1XfgbUw==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:52:28.781063"], ["updated_at", "2017-07-11 02:52:28.781063"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/26
+Completed 302 Found in 9ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/xml_parses/26" for 127.0.0.1 at 2017-07-10 22:52:28 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 227ms (Views: 11.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/xml_parses/new" for 127.0.0.1 at 2017-07-10 22:58:50 -0400
+Processing by XmlParsesController#new as HTML
+  Rendering xml_parses/new.html.erb within layouts/application
+  Rendered xml_parses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 13.3ms)
+
+
+Started POST "/xml_parses" for 127.0.0.1 at 2017-07-10 22:58:53 -0400
+Processing by XmlParsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o1uIRNjLdOj9lycsaxSxa3J6JOg8CbSHFhuzh39GtSLuA0LRQrjT53DNGjk29KCOq0YyF06sqwLeMtEYCJzt4g==", "xml_parse"=>{"xml_url"=>"http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"}, "commit"=>"Save Xml parse"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "xml_parses" ("xml_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["xml_url", "http://www.ibiblio.org/xml/examples/shakespeare/macbeth.xml"], ["created_at", "2017-07-11 02:58:53.452349"], ["updated_at", "2017-07-11 02:58:53.452349"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/xml_parses/27
+Completed 302 Found in 10ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/xml_parses/27" for 127.0.0.1 at 2017-07-10 22:58:53 -0400
+Processing by XmlParsesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mXmlParse Load (0.1ms)[0m  [1m[34mSELECT  "xml_parses".* FROM "xml_parses" WHERE "xml_parses"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering xml_parses/show.html.erb within layouts/application
+  Rendered xml_parses/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 258ms (Views: 24.4ms | ActiveRecord: 0.1ms)
+
+
